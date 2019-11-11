@@ -1,0 +1,86 @@
+.header {
+  background-color: #006cd5;  
+  color: #ffffff;
+  padding: 24px 12px;
+  border-radius: 16px 0 0 0;
+  font-weight: 500;
+}
+
+.footer {
+  background-color: #2b3145;
+  padding: 12px;
+  border-radius: 0 0 0 16px;
+}
+
+.sidebar-content {
+  margin: 12px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cell {
+  border: 0.5px solid #424a62;
+  color: #aaacb5;
+  padding: 12px;
+  height: 120px;
+}
+
+.sidebar {
+  border-radius: 16px 0 0 16px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 80%;
+  background-color: #33394f;
+}
+
+.cell i {
+  font-size: 32px;
+  margin-bottom: 8px ;
+}
+
+.subfooter i { 
+  color: #8d919e;
+}
+
+.m-t-12 {
+  margin-top: 12px;
+}
+
+.m-b-80 {
+  margin-bottom: 80px;
+}
+
+.menu-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 6px;
+}
+
+.btn-primary {
+  background-color: #2b3145;
+  border: 1px solid #2b3145;
+  box-shadow: none !important;
+  padding: 8px !important;
+}
+
+.btn-primary:active {
+  background-color: #2b3145 !important;
+  border: 1px solid #2b3145 !important;
+}
+
+.btn-primary:focus {
+  background-color: #2b3145 !important;
+  border: 1px solid #2b3145 !important;
+}
+
+.btn-primary:hover {
+  background-color: #2b3145 !important;
+  border: 1px solid #2b3145 !important;
+}
